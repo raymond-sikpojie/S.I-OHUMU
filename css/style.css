@@ -1,0 +1,299 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/* Setting Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  /* font-family: "Merriweather Sans", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  /* background-color: black; */
+  margin: 0 auto;
+  padding: 0;
+}
+
+section {
+  /* padding: 30px 0; */
+  /* margin: 10px 0; */
+}
+
+/* All headings */
+.heading {
+  /* color: #cc5500; */
+  color: #ff7034;
+  margin: 20px;
+  padding: 20px;
+  text-decoration: underline;
+  font-size: 1.8em;
+  font-family: "Playball", cursive, Arial, Helvetica, sans-serif;
+}
+/* Link button for portfolio cards */
+.card-btn {
+  margin: 10px;
+  padding: 5px;
+  /* border-radius: 7%; */
+  color: white;
+  text-decoration: none;
+  /* background-color: rgb(248, 113, 113); */
+  background-color: brown;
+  width: 150px;
+
+  font-size: 1em;
+  transition: background-color 0.5s;
+}
+
+.card-btn:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  font-size: 1.3em;
+}
+
+/* Home */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: #ff7034;
+  /* color: #cc5500; */
+  height: 100vh;
+  text-align: center;
+}
+
+img {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+}
+
+.home h2 {
+  margin: 20px;
+}
+
+.home p {
+  font-size: 1.2em;
+}
+
+/* About */
+.about {
+  background-color: white;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2em;
+  font-weight: 600;
+}
+
+.text {
+  width: 70vw;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  align-items: center;
+  text-align: left;
+}
+
+/* Portfolio */
+
+.port-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 228, 196, 0.226);
+  font-size: 1em;
+}
+
+.portfolio {
+  /* width: 95vw; */
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio h2 {
+  /* justify-self: center;
+  margin: 20px; */
+}
+
+.card {
+  /* background-color: rgba(0, 0, 0, 0.048); */
+  /* display: block; */
+  color: black;
+  margin: 1em;
+  width: 30vw;
+  height: auto;
+  /* height: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: -3px -3px 9px -1px rgba(191, 187, 191, 0.75);
+  -moz-box-shadow: -3px -3px 9px -1px rgba(191, 187, 191, 0.75);
+  box-shadow: -3px -3px 9px -1px rgba(191, 187, 191, 0.75);
+}
+.card-img {
+  width: 60%;
+  height: 25vh;
+  /* margin: 10px; */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+/* MEDIA */
+.media {
+  min-height: 80vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* font-size: 1.5em; */
+}
+
+.media-div {
+  text-align: left;
+}
+
+.media-card {
+  margin: 10px;
+  padding: 10px;
+}
+
+.media-card a {
+  text-decoration: none;
+  color: black;
+}
+
+.media-card a:hover {
+  text-decoration: none;
+  color: #ff7034;
+}
+
+.media-card a:active {
+  text-decoration: none;
+  color: #ff7034;
+}
+
+.iframe {
+  width: 80%;
+  height: 50vh;
+}
+
+/* CONTACT */
+.contact {
+  /* font-size: 2em; */
+  min-height: 80vh;
+  background-color: rgba(255, 228, 196, 0.329);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.3em;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact .phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contact .phone p {
+  margin: 10px;
+}
+
+.contact .phone span {
+  margin: 10px;
+}
+
+.contact .contact-links {
+  margin: 20px;
+}
+
+.contact .contact-links a {
+  margin: 20px;
+}
+
+.contact .contact-links a:hover {
+  margin: 20px;
+  color: #ff7034;
+}
+.contact .contact-links a:active {
+  margin: 20px;
+  color: #ff7034;
+}
+
+.contact .heading {
+  text-align: center;
+  margin: 20px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1100px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    /* justify-self: center; */
+    align-items: center;
+  }
+
+  .card {
+    /* margin: 1em; */
+    font-size: 0.8em;
+    padding: 30px;
+    width: 60vw;
+    /* height: 30vh; */
+    height: auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center;
+  }
+  .card {
+    height: 35vh;
+  }
+  .iframe {
+    width: 80%;
+    height: 30vh;
+  }
+
+  .contact {
+    font-size: 1.3em;
+    /* min-height: 50vh; */
+  }
+  .contact .contact-links {
+    font-size: 1.4em;
+  }
+}
