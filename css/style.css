@@ -140,6 +140,7 @@ img {
   margin: 1em;
   width: 30vw;
   height: auto;
+  border-radius: 10% 5%;
   /* height: auto; */
   display: flex;
   flex-direction: column;
