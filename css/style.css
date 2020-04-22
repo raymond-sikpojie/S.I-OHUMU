@@ -269,13 +269,14 @@ img {
     border-radius: 50%;
     padding: 10px;
   }
-
+  .home {
+    /* font-size: 1em; */
+  }
   .home h2 {
-    margin: 20px;
+    margin: 30px;
   }
 
   .home p {
-    font-size: 1em;
     padding: 10px;
   }
 
