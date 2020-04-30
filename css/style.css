@@ -146,6 +146,16 @@ img {
 
 /* MEDIA */
 .media {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    342deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(253, 251, 248, 0.9318102240896359) 100%,
+    rgba(252, 249, 244, 1) 100%,
+    rgba(233, 241, 244, 1) 100%
+  );
+
   font-weight: bold;
   min-height: 80vh;
   background-color: white;
