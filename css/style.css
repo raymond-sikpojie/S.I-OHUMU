@@ -271,7 +271,9 @@ img {
   .home p {
     padding: 10px;
   }
-
+  .about {
+    font-size: 0.9em;
+  }
   .about .text {
     width: 90vw;
   }
